@@ -24,5 +24,13 @@
 import json
 characters = open("./characters.json")
 data = json.load(characters)
+lives = 3
 
 player = (input("which player")).capitalize()
+
+npc = (input("which npc")).capitalize()
+for life in lives:
+    if "hp" < 0:
+        lives -= 1
+if lives == 0:
+    print("game over")
