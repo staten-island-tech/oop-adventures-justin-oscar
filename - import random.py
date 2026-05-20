@@ -27,8 +27,12 @@ data = json.load(characters)
 lives = 3
 
 player = (input("which player")).capitalize()
-
+player_health = (characters[player]['hp'])
 npc = (input("which npc")).capitalize()
+npc_health = (characters[npc]['hp'])
+print(player_health)
+
+
 for life in lives:
     if "hp" < 0:
         lives -= 1
