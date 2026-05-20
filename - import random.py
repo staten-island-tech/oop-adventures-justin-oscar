@@ -27,12 +27,19 @@ data = json.load(characters)
 lives = 3
 
 player = (input("which player")).capitalize()
+print(characters[player]['moves'])
+
 player_health = (characters[player]['hp'])
 npc = (input("which npc")).capitalize()
 npc_health = (characters[npc]['hp'])
 print(player_health)
 
 
+
+while lives != 0:
+    attack = input('what attack')
+damage = (characters['moves'][attack])
+npc_health -= damage
 for life in lives:
     if "hp" < 0:
         lives -= 1
