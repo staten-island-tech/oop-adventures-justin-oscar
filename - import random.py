@@ -25,11 +25,11 @@ import json
 characters = open("./characters.json")
 data = json.load(characters)
 lives = 3
-
+npc_lives = 3
 player = (input("which player")).capitalize()
 print(characters[player]['moves'])
 
-player_health = (characters[player]['hp'])
+player_health = (characters["player"]['hp'])
 npc = (input("which npc")).capitalize()
 npc_health = (characters[npc]['hp'])
 print(player_health)
@@ -40,8 +40,15 @@ while lives != 0:
     attack = input('what attack')
 damage = (characters['moves'][attack])
 npc_health -= damage
+
+
 for life in lives:
-    if "hp" < 0:
+    if player_health < 0:
         lives -= 1
 if lives == 0:
     print("game over")
+for npc_life in npc_lives:
+    if npc_health <0:
+        npc_lives-=1
+if npc_lives == 0:
+    print("victory")
