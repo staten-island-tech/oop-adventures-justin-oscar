@@ -44,10 +44,12 @@ elif gamemode == "Games & More":
     games_gamemode = input("Classic, Training, Mob Smash, Home-Run Contest, Stage Builder, amiibo, or Mii Fighter")
 elif gamemode == "Vault":
     Vault_mode = input("Sounds, Replays, Records, Challenges, Tips, Movies, or Shop")
-elif gamemode == "Online"
+elif gamemode == "Online":
+    h
 while Start == "READY TO FIGHT":
-    put into whatever battle is """
-class gamemode:
+    h """
+
+""" class gamemode:
     def __init__(self, mode, mode2, mode3, mode4, mode5, mode6, mode7):
         self.mode = mode
         self.mode2 = mode2
@@ -59,5 +61,46 @@ class gamemode:
 Overall = gamemode("Smash", "Spirits", "Games & More", "Vault", "Online", ".", ".")
 Smash = gamemode("Smash", "Tourney", "Squad Strike", "Special Smash", ".", ".", ".")
 GamesAndMore = gamemode("Classic Mode", "Training", "Mob Smash", "Home-Run Contest", "Stage Builder", "amiibo", "Mii Fighter")
-Spirits = gamemode("Adventure", "Spirit Board", "Collection", ".", ".", ".", ".")
-print (GamesAndMore)
+Spirits = gamemode("Adventure", "Spirit Board", "Collection", ".", ".", ".", ".") """
+class gamemode():
+    def main_menu():
+        print ("1.) Smash")
+        print ("2.) Spirits")
+        print ("3.) Vault")
+        print ("4.) Games & More")
+        print ("5.) Online")
+        print ("6.) Back")
+    def Smash_menu():
+        print ("1.) Smash")
+        print ("2.) Tourney")
+        print ("3.) Squad Strike")
+        print ("4.) Special Strike")
+        print ("5.) Back")
+    def GamesAndMoreMenu():
+        print ("1.) Classic")
+        print ("2.) Training")
+        print ("3.) Mob Smash")
+        print ("4.) Home-Run Contest")
+        print ("5.) Stage Builder")
+        print ("6.) amiibo")
+        print ("7.) Mii Fighter")
+        print ("8.) Back")
+    def SpiritsMenu():
+        print ("1.) Adventure")
+        print ("2.) Spirit Board")
+        print ("3.) Collection")
+        print ("4.) Back")
+    def VaultMenu():
+        print ("1.) Sounds")
+        print ("2.) Replays")
+        print ("3.) Records")
+        print ("4.) Challenges")
+        print ("5.) Tips")
+        print ("6.) Movies")
+        print ("7.) Shop")
+        print ("8.) Back")
+    def Smashsmashmenu():
+        ""
+main = gamemode()
+
+Menu = input("NUM")
