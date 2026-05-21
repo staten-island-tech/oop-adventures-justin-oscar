@@ -40,7 +40,7 @@ while lives != 0:
     attack = input('what attack')
 damage = (characters['moves'][attack])
 npc_health -= damage
-npc_attack = 
+# npc_attack = 
 
 
 for life in lives:
