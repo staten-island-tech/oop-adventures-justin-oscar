@@ -29,7 +29,7 @@ npc_lives = 3
 player = (input("which player")).capitalize()
 print(characters[player]['moves'])
 
-player_health = (characters["player"]['hp'])
+player_health = (characters[player]['hp'])
 npc = (input("which npc")).capitalize()
 npc_health = (characters[npc]['hp'])
 print(player_health)
