@@ -63,34 +63,18 @@ Smash = gamemode("Smash", "Tourney", "Squad Strike", "Special Smash", ".", ".", 
 GamesAndMore = gamemode("Classic Mode", "Training", "Mob Smash", "Home-Run Contest", "Stage Builder", "amiibo", "Mii Fighter")
 Spirits = gamemode("Adventure", "Spirit Board", "Collection", ".", ".", ".", ".") """
 class gamemode():
-    def main_menu():
+    def main_menu(self):
         print ("1.) Smash")
-        print ("2.) Spirits")
-        print ("3.) Vault")
-        print ("4.) Games & More")
-        print ("5.) Online")
-        print ("6.) Back")
-    def Smash_menu():
+        print ("2.) Vault")
+        print ("3.) Back")
+    def Smash_menu(self):
         print ("1.) Smash")
         print ("2.) Tourney")
         print ("3.) Squad Strike")
         print ("4.) Special Strike")
         print ("5.) Back")
-    def GamesAndMoreMenu():
-        print ("1.) Classic")
-        print ("2.) Training")
-        print ("3.) Mob Smash")
-        print ("4.) Home-Run Contest")
-        print ("5.) Stage Builder")
-        print ("6.) amiibo")
-        print ("7.) Mii Fighter")
-        print ("8.) Back")
-    def SpiritsMenu():
-        print ("1.) Adventure")
-        print ("2.) Spirit Board")
-        print ("3.) Collection")
-        print ("4.) Back")
-    def VaultMenu():
+
+    def VaultMenu(self):
         print ("1.) Sounds")
         print ("2.) Replays")
         print ("3.) Records")
@@ -99,8 +83,9 @@ class gamemode():
         print ("6.) Movies")
         print ("7.) Shop")
         print ("8.) Back")
-    def Smashsmashmenu():
+    def Smashsmashmenu(self):
         ""
 main = gamemode()
-
-Menu = input("NUM")
+if True:
+    main.main_menu
+    Menu = input("NUM")
