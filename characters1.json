@@ -1,0 +1,170 @@
+{
+  "Samus": {
+    "moves": {
+      "Forward Smash": 17.8,
+      "up smash": 14,
+      "down smash": 12
+    },
+    "hp": 108
+  },
+  "Banjo & Kazooie": {
+    "hp": null,
+    "moves": {
+      "Forward Smash": 16,
+      "Up Smash": 15,
+      "Down Smash": 14
+    }
+  },
+  "Bayonetta": {
+    "hp": 81.0,
+    "moves": {
+      "Forward Smash": 16,
+      "Up Smash": 17,
+      "Down Smash": 13
+    }
+  },
+  "Bowser": {
+    "hp": 135.0,
+    "moves": {
+      "Forward Smash": 23,
+      "Up Smash": 20,
+      "Down Smash": 16
+    }
+  },
+  "Bowser Jr.": {
+    "hp": 108.0,
+    "moves": {
+      "Forward Smash": 18,
+      "Up Smash": 14,
+      "Down Smash": 15
+    }
+  },
+  "Byleth": {
+    "hp": null,
+    "moves": {
+      "Forward Smash": 19,
+      "Up Smash": 14,
+      "Down Smash": 13
+    }
+  },
+  "Captain Falcon": {
+    "hp": 104.0,
+    "moves": {
+      "Forward Smash": 19,
+      "Up Smash": 14,
+      "Down Smash": 14
+    }
+  },
+  "Chrom": {
+    "hp": 95.0,
+    "moves": {
+      "Forward Smash": 18,
+      "Up Smash": 17,
+      "Down Smash": 15
+    }
+  },
+  "Cloud": {
+    "hp": 100.0,
+    "moves": {
+      "Forward Smash": 19,
+      "Up Smash": 13,
+      "Down Smash": 16
+    }
+  },
+  "Corrin": {
+    "hp": 98.0,
+    "moves": {
+      "Forward Smash": 15,
+      "Up Smash": 14,
+      "Down Smash": 12
+    }
+  },
+  "Daisy": {
+    "hp": 89.0,
+    "moves": {
+      "Forward Smash": 15,
+      "Up Smash": 14,
+      "Down Smash": 14
+    }
+  },
+  "Dark Pit": {
+    "hp": 96.0,
+    "moves": {
+      "Forward Smash": 15,
+      "Up Smash": 13,
+      "Down Smash": 12
+    }
+  },
+  "Dark Samus": {
+    "hp": 108.0,
+    "moves": {
+      "Forward Smash": 14,
+      "Up Smash": 18,
+      "Down Smash": 12
+    }
+  },
+  "Diddy Kong": {
+    "hp": 90.0,
+    "moves": {
+      "Forward Smash": 14,
+      "Up Smash": 13,
+      "Down Smash": 15
+    }
+  },
+  "Donkey Kong": {
+    "hp": 127.0,
+    "moves": {
+      "Forward Smash": 20,
+      "Up Smash": 19,
+      "Down Smash": 17
+    }
+  },
+  "Dr. Mario": {
+    "hp": 98.0,
+    "moves": {
+      "Forward Smash": 20,
+      "Up Smash": 14,
+      "Down Smash": 12
+    }
+  },
+  "Duck Hunt": {
+    "hp": 86.0,
+    "moves": {
+      "Forward Smash": 17,
+      "Up Smash": 15,
+      "Down Smash": 15
+    }
+  },
+  "Falco": {
+    "hp": 82.0,
+    "moves": {
+      "Forward Smash": 15,
+      "Up Smash": 14,
+      "Down Smash": 15
+    }
+  },
+  "Fox": {
+    "hp": 77.0,
+    "moves": {
+      "Forward Smash": 14,
+      "Up Smash": 16,
+      "Down Smash": 14
+    }
+  },
+  "Ganondorf": {
+    "hp": 118.0,
+    "moves": {
+      "Forward Smash": 24,
+      "Up Smash": 21,
+      "Down Smash": 20
+    }
+  },
+  "Greninja": {
+    "hp": 88.0,
+    "moves": {
+      "Forward Smash": 14,
+      "Up Smash": 13,
+      "Down Smash": 13
+    }
+  }
+}
