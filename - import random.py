@@ -20,28 +20,28 @@
 # print(link.display_info())
 
 # if 
-
+import random
 import json
 characters = open("./characters.json")
 data = json.load(characters)
 lives = 3
 npc_lives = 3
 player = (input("which player")).capitalize()
-print(characters[player]['moves'])
+print(data[player]['moves'])
 
-player_health = (characters[player]['hp'])
+player_health = (data[player]['hp'])
 npc = (input("which npc")).capitalize()
-npc_health = (characters[npc]['hp'])
+npc_health = (data[npc]['hp'])
 print(player_health)
 
 
 
 while lives != 0:
     attack = input('what attack')
-damage = (characters['moves'][attack])
+damage = (data['moves'][attack])
 npc_health -= damage
-# npc_attack = 
-
+npc_attack = random.choice(characters['move'])
+print(npc_health)
 
 for life in lives:
     if player_health < 0:
