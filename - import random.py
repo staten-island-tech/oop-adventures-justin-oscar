@@ -38,9 +38,9 @@ print(player_health)
 
 while lives != 0:
     attack = input('what attack')
-damage = (data['moves'][attack])
+damage = (data(attack)['moves'])
 npc_health -= damage
-npc_attack = random.choice(characters['move'])
+npc_attack = random.choice(data('move'))
 print(npc_health)
 
 for life in lives:
