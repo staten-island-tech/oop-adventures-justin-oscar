@@ -27,11 +27,11 @@ data = json.load(characters)
 lives = 3
 npc_lives = 3
 player = (input("which player")).capitalize()
-print(data[player]['moves'])
+print(data(player)['moves'])
 
-player_health = (data[player]['hp'])
+player_health = (data(player)['hp'])
 npc = (input("which npc")).capitalize()
-npc_health = (data[npc]['hp'])
+npc_health = (data(npc)['hp'])
 print(player_health)
 
 
