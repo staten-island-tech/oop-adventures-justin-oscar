@@ -2,6 +2,7 @@ class gamemode():
     def main_menu(self):
         print("1.) Smash")
         print("2.) Vault")
+
         
     def Smash_menu(self):
         print("1.) Smash")
@@ -27,25 +28,42 @@ main = gamemode()
 main.main_menu()
 choice = int(input("Enter option 1-2: ")) 
     
-
-match choice:
-    case 1:
-        main.Smash_menu()
-        choice1 = int(input("Enter option 1-5: ")) 
-    case 2:
-        main.VaultMenu()
-        choice2 = int(input("Enter option 1-8: ")) 
-    case _:
-        print("Invalid option. Please try again.")
-match choice1:
-    case 1:
-        main.Smashsmashmenu()
-    case 2:
-        main.main_menu
-    case 3:
-        main.main_menu
-    case 4:
-        main.main_menu
-    case 5:
-        main.main_menu()
-
+a = 1
+while a == 1:
+    match choice:
+        case 1:
+            main.Smash_menu()
+            choice1 = int(input("Enter option 1-5: "))
+            a=2
+        case 2:
+            main.VaultMenu()
+            choice2 = int(input("Enter option 1-8: ")) 
+            a=3
+        case _:
+            print("Invalid option. Please try again.")
+            a=1
+            break
+while a == 2:
+    choice1 = int(input("Enter option 1-8: ")) 
+    match choice1:
+        case 1:
+            main.Smashsmashmenu()
+        case 2:
+            main.Tourneymenu()
+        case 3:
+            main.main_menu
+        case 4:
+            main.main_menu
+        case 5:
+            a=1
+while a == 3:
+    match choice2:
+        case 1:
+            Volume = int(input("Set Volume 1-100"))
+            if Volume >= 0 and Volume <= 100:
+                print (Volume)
+                a=2
+            
+            
+        
+            
