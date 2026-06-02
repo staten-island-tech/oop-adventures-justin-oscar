@@ -42,10 +42,11 @@ while lives > 0 and npc_lives > 0:
     damage = (data[player]['moves'][attack])
     npc_health -= damage
     npc_attack = random.choice(list(data[npc]['moves'].keys()))
+    print(npc_attack)
     npc_damage = data[npc]['moves'][npc_attack]
     player_health -= npc_damage
-    print(npc_health)
-    print(player_health)
+    print(npc_health)("npc_health")
+    print(player_health)("player health")
     if player_health < 0:
         lives -= 1
         player_health = data[player]['hp']
@@ -57,3 +58,6 @@ if lives == 0:
         npc_health = data[npc]['hp']
 if npc_lives == 0:
     print("victory")
+
+
+    # YOU FORGOT TO SIGN OUT OF YOUR COMPUTER YOU FOOL. DONT LET ME CATCH YOU LACKING AGAIN OR ALL OF YOUR CODE WILL BE ERASED
