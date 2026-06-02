@@ -45,6 +45,7 @@ while lives > 0 and npc_lives > 0:
     npc_damage = data[npc]['moves'][npc_attack]
     player_health -= npc_damage
     print(npc_health)
+    print(player_health)
     if player_health < 0:
         lives -= 1
         player_health = data[player]['hp']
