@@ -10,8 +10,12 @@ class gamemode():
         print("4.) Special Strike")
         print("5.) Back")
     def Smashsmashmenu(self):
-        print("1.) Create Ruleset")
-        print("2.) Use Existing Ruleset")
+        print("1.) Use Existing Ruleset")
+        print("2.) Suggest a new ruleset to the developers")
+        print("3.) Back")
+    def ruleset(self):
+        print("1.) Three Stock")
+        print("2.) Timed battle")
         print("3.) Back")
 main = gamemode()
 def mainfunction():
@@ -22,6 +26,24 @@ def mainfunction():
         case 1:
             main.Smash_menu()
             smashmenuoptions()
+def smashsmashmenu():
+    main.Smashsmashmenu()
+    choice2 = int(input("Enter option 1-3"))
+    match choice2:
+        case 1:
+            main.ruleset()
+            choice3 = int(input("Enter option 1-3"))
+            match choice3:
+                case 1:
+                    character_screen()
+
+        case 2:
+            Suggestion = input("Suggestions?")
+            print("Thank you for the suggestion")
+            smashmenuoptions()
+            return Suggestion
+        case 3:
+            smashsmashmenu()
 def smashmenuoptions():
     choice1 = int(input("Enter option 1-5: "))
     match choice1:
