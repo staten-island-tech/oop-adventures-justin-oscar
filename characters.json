@@ -1,23 +1,13 @@
-[
-    {
-        "name": "samus", 
-        "moves": {
-            "Forward Smash": 17.8,
-            "up smash": 14,
-            "down smash": 12},
-        "hp": 108
-    },
-  {
-    "name": "Samus",
-    "hp": 108.0,
+{
+  "samus": {
     "moves": {
-      "Forward Smash": 14,
-      "Up Smash": 18,
+      "Forward Smash": 17.8,
+      "Up Smash": 14,
       "Down Smash": 12
-    }
+    },
+    "hp": 108
   },
-  {
-    "name": "Banjo & Kazooie",
+  "Banjo & Kazooie": {
     "hp": null,
     "moves": {
       "Forward Smash": 16,
@@ -25,8 +15,7 @@
       "Down Smash": 14
     }
   },
-  {
-    "name": "Bayonetta",
+  "Bayonetta": {
     "hp": 81.0,
     "moves": {
       "Forward Smash": 16,
@@ -34,8 +23,7 @@
       "Down Smash": 13
     }
   },
-  {
-    "name": "Bowser",
+  "Bowser": {
     "hp": 135.0,
     "moves": {
       "Forward Smash": 23,
@@ -43,8 +31,7 @@
       "Down Smash": 16
     }
   },
-  {
-    "name": "Bowser Jr.",
+  "Bowser Jr.": {
     "hp": 108.0,
     "moves": {
       "Forward Smash": 18,
@@ -52,8 +39,7 @@
       "Down Smash": 15
     }
   },
-  {
-    "name": "Byleth",
+  "Byleth": {
     "hp": null,
     "moves": {
       "Forward Smash": 19,
@@ -61,8 +47,7 @@
       "Down Smash": 13
     }
   },
-  {
-    "name": "Captain Falcon",
+  "Captain Falcon": {
     "hp": 104.0,
     "moves": {
       "Forward Smash": 19,
@@ -70,8 +55,7 @@
       "Down Smash": 14
     }
   },
-  {
-    "name": "Chrom",
+  "Chrom": {
     "hp": 95.0,
     "moves": {
       "Forward Smash": 18,
@@ -79,8 +63,7 @@
       "Down Smash": 15
     }
   },
-  {
-    "name": "Cloud",
+  "Cloud": {
     "hp": 100.0,
     "moves": {
       "Forward Smash": 19,
@@ -88,8 +71,7 @@
       "Down Smash": 16
     }
   },
-  {
-    "name": "Corrin",
+  "Corrin": {
     "hp": 98.0,
     "moves": {
       "Forward Smash": 15,
@@ -97,8 +79,7 @@
       "Down Smash": 12
     }
   },
-  {
-    "name": "Daisy",
+  "Daisy": {
     "hp": 89.0,
     "moves": {
       "Forward Smash": 15,
@@ -106,8 +87,7 @@
       "Down Smash": 14
     }
   },
-  {
-    "name": "Dark Pit",
+  "Dark Pit": {
     "hp": 96.0,
     "moves": {
       "Forward Smash": 15,
@@ -115,8 +95,7 @@
       "Down Smash": 12
     }
   },
-  {
-    "name": "Dark Samus",
+  "Dark Samus": {
     "hp": 108.0,
     "moves": {
       "Forward Smash": 14,
@@ -124,8 +103,7 @@
       "Down Smash": 12
     }
   },
-  {
-    "name": "Diddy Kong",
+  "Diddy Kong": {
     "hp": 90.0,
     "moves": {
       "Forward Smash": 14,
@@ -133,8 +111,7 @@
       "Down Smash": 15
     }
   },
-  {
-    "name": "Donkey Kong",
+  "Donkey Kong": {
     "hp": 127.0,
     "moves": {
       "Forward Smash": 20,
@@ -142,8 +119,7 @@
       "Down Smash": 17
     }
   },
-  {
-    "name": "Dr. Mario",
+  "Dr. Mario": {
     "hp": 98.0,
     "moves": {
       "Forward Smash": 20,
@@ -151,8 +127,7 @@
       "Down Smash": 12
     }
   },
-  {
-    "name": "Duck Hunt",
+  "Duck Hunt": {
     "hp": 86.0,
     "moves": {
       "Forward Smash": 17,
@@ -160,8 +135,7 @@
       "Down Smash": 15
     }
   },
-  {
-    "name": "Falco",
+  "Falco": {
     "hp": 82.0,
     "moves": {
       "Forward Smash": 15,
@@ -169,8 +143,7 @@
       "Down Smash": 15
     }
   },
-  {
-    "name": "Fox",
+  "Fox": {
     "hp": 77.0,
     "moves": {
       "Forward Smash": 14,
@@ -178,8 +151,7 @@
       "Down Smash": 14
     }
   },
-  {
-    "name": "Ganondorf",
+  "Ganondorf": {
     "hp": 118.0,
     "moves": {
       "Forward Smash": 24,
@@ -187,8 +159,7 @@
       "Down Smash": 20
     }
   },
-  {
-    "name": "Greninja",
+  "Greninja": {
     "hp": 88.0,
     "moves": {
       "Forward Smash": 14,
@@ -196,8 +167,7 @@
       "Down Smash": 13
     }
   },
-  {
-    "name": "Hero",
+  "Hero": {
     "hp": null,
     "moves": {
       "Forward Smash": 18,
@@ -205,8 +175,7 @@
       "Down Smash": 16
     }
   },
-  {
-    "name": "Ice Climbers",
+  "Ice Climbers": {
     "hp": 92.0,
     "moves": {
       "Forward Smash": 13,
@@ -214,8 +183,7 @@
       "Down Smash": 12
     }
   },
-  {
-    "name": "Ike",
+  "Ike": {
     "hp": 107.0,
     "moves": {
       "Forward Smash": 19,
@@ -223,8 +191,7 @@
       "Down Smash": 14
     }
   },
-  {
-    "name": "Incineroar",
+  "Incineroar": {
     "hp": 116.0,
     "moves": {
       "Forward Smash": 17.5,
@@ -232,8 +199,7 @@
       "Down Smash": 17
     }
   },
-  {
-    "name": "Inkling",
+  "Inkling": {
     "hp": 94.0,
     "moves": {
       "Forward Smash": 14,
@@ -241,8 +207,7 @@
       "Down Smash": 12.5
     }
   },
-  {
-    "name": "Isabelle",
+  "Isabelle": {
     "hp": 88.0,
     "moves": {
       "Forward Smash": 10,
@@ -250,8 +215,7 @@
       "Down Smash": 12
     }
   },
-  {
-    "name": "Pokemon Trainer (Ivysaur)",
+  "Pokemon Trainer (Ivysaur)": {
     "hp": 96.0,
     "moves": {
       "Forward Smash": 14.5,
@@ -259,8 +223,7 @@
       "Down Smash": 12
     }
   },
-  {
-    "name": "Jigglypuff",
+  "Jigglypuff": {
     "hp": 68.0,
     "moves": {
       "Forward Smash": 15,
@@ -268,8 +231,7 @@
       "Down Smash": 11
     }
   },
-  {
-    "name": "Joker",
+  "Joker": {
     "hp": null,
     "moves": {
       "Forward Smash": 14.5,
@@ -277,8 +239,7 @@
       "Down Smash": 12
     }
   },
-  {
-    "name": "Kazuya",
+  "Kazuya": {
     "hp": null,
     "moves": {
       "Forward Smash": 19.5,
@@ -286,8 +247,7 @@
       "Down Smash": 15
     }
   },
-  {
-    "name": "Ken",
+  "Ken": {
     "hp": 103.0,
     "moves": {
       "Forward Smash": 15,
@@ -295,8 +255,7 @@
       "Down Smash": 16
     }
   },
-  {
-    "name": "King Dedede",
+  "King Dedede": {
     "hp": 127.0,
     "moves": {
       "Forward Smash": 25,
@@ -304,8 +263,7 @@
       "Down Smash": 15
     }
   },
-  {
-    "name": "King K. Rool",
+  "King K. Rool": {
     "hp": 133.0,
     "moves": {
       "Forward Smash": 19,
@@ -313,8 +271,7 @@
       "Down Smash": 17
     }
   },
-  {
-    "name": "Kirby",
+  "Kirby": {
     "hp": 79.0,
     "moves": {
       "Forward Smash": 15,
@@ -322,8 +279,7 @@
       "Down Smash": 14
     }
   },
-  {
-    "name": "Link",
+  "Link": {
     "hp": 104.0,
     "moves": {
       "Forward Smash": 14,
@@ -331,8 +287,7 @@
       "Down Smash": 13
     }
   },
-  {
-    "name": "Little Mac",
+  "Little Mac": {
     "hp": 87.0,
     "moves": {
       "Forward Smash": 20,
@@ -340,8 +295,7 @@
       "Down Smash": 13
     }
   },
-  {
-    "name": "Lucario",
+  "Lucario": {
     "hp": 92.0,
     "moves": {
       "Forward Smash": 14,
@@ -349,8 +303,7 @@
       "Down Smash": 12
     }
   },
-  {
-    "name": "Lucas",
+  "Lucas": {
     "hp": 94.0,
     "moves": {
       "Forward Smash": 15,
@@ -358,8 +311,7 @@
       "Down Smash": 17
     }
   },
-  {
-    "name": "Lucina",
+  "Lucina": {
     "hp": 90.0,
     "moves": {
       "Forward Smash": 15,
@@ -367,8 +319,7 @@
       "Down Smash": 12
     }
   },
-  {
-    "name": "Luigi",
+  "Luigi": {
     "hp": 97.0,
     "moves": {
       "Forward Smash": 14,
@@ -376,8 +327,7 @@
       "Down Smash": 15
     }
   },
-  {
-    "name": "Mario",
+  "Mario": {
     "hp": 98.0,
     "moves": {
       "Forward Smash": 17,
@@ -385,8 +335,7 @@
       "Down Smash": 12
     }
   },
-  {
-    "name": "Marth",
+  "Marth": {
     "hp": 90.0,
     "moves": {
       "Forward Smash": 18,
@@ -394,8 +343,7 @@
       "Down Smash": 12
     }
   },
-  {
-    "name": "Mega Man",
+  "Mega Man": {
     "hp": 102.0,
     "moves": {
       "Forward Smash": 19.5,
@@ -403,8 +351,7 @@
       "Down Smash": 17
     }
   },
-  {
-    "name": "Meta Knight",
+  "Meta Knight": {
     "hp": 80.0,
     "moves": {
       "Forward Smash": 16,
@@ -412,8 +359,7 @@
       "Down Smash": 11
     }
   },
-  {
-    "name": "Mewtwo",
+  "Mewtwo": {
     "hp": 79.0,
     "moves": {
       "Forward Smash": 19,
@@ -421,8 +367,7 @@
       "Down Smash": 15
     }
   },
-  {
-    "name": "Mii Brawler",
+  "Mii Brawler": {
     "hp": 94.0,
     "moves": {
       "Forward Smash": 18,
@@ -430,8 +375,7 @@
       "Down Smash": 15
     }
   },
-  {
-    "name": "Mii Gunner",
+  "Mii Gunner": {
     "hp": 104.0,
     "moves": {
       "Forward Smash": 16,
@@ -439,8 +383,7 @@
       "Down Smash": 15
     }
   },
-  {
-    "name": "Mii Swordfighter",
+  "Mii Swordfighter": {
     "hp": 100.0,
     "moves": {
       "Forward Smash": 16,
@@ -448,8 +391,7 @@
       "Down Smash": 14
     }
   },
-  {
-    "name": "Min Min",
+  "Min Min": {
     "hp": 104.0,
     "moves": {
       "Forward Smash": 14,
@@ -457,8 +399,7 @@
       "Down Smash": 13
     }
   },
-  {
-    "name": "Mr. Game & Watch",
+  "Mr. Game & Watch": {
     "hp": 75.0,
     "moves": {
       "Forward Smash": 18,
@@ -466,8 +407,7 @@
       "Down Smash": 13
     }
   },
-  {
-    "name": "Mythra",
+  "Mythra": {
     "hp": 92.0,
     "moves": {
       "Forward Smash": 13.5,
@@ -475,8 +415,7 @@
       "Down Smash": 11
     }
   },
-  {
-    "name": "Ness",
+  "Ness": {
     "hp": 94.0,
     "moves": {
       "Forward Smash": 18,
@@ -484,8 +423,7 @@
       "Down Smash": 11
     }
   },
-  {
-    "name": "Olimar",
+  "Olimar": {
     "hp": 79.0,
     "moves": {
       "Forward Smash": 15,
@@ -493,8 +431,7 @@
       "Down Smash": 11
     }
   },
-  {
-    "name": "Pac-Man",
+  "Pac-Man": {
     "hp": 95.0,
     "moves": {
       "Forward Smash": 16,
@@ -502,8 +439,7 @@
       "Down Smash": 13
     }
   },
-  {
-    "name": "Palutena",
+  "Palutena": {
     "hp": 91.0,
     "moves": {
       "Forward Smash": 16,
@@ -511,8 +447,7 @@
       "Down Smash": 13
     }
   },
-  {
-    "name": "Peach",
+  "Peach": {
     "hp": 89.0,
     "moves": {
       "Forward Smash": 15,
@@ -520,8 +455,7 @@
       "Down Smash": 14
     }
   },
-  {
-    "name": "Pichu",
+  "Pichu": {
     "hp": 62.0,
     "moves": {
       "Forward Smash": 14,
@@ -529,8 +463,7 @@
       "Down Smash": 13
     }
   },
-  {
-    "name": "Pikachu",
+  "Pikachu": {
     "hp": 79.0,
     "moves": {
       "Forward Smash": 15,
@@ -538,8 +471,7 @@
       "Down Smash": 13
     }
   },
-  {
-    "name": "Piranha Plant",
+  "Piranha Plant": {
     "hp": 112.0,
     "moves": {
       "Forward Smash": 18,
@@ -547,8 +479,7 @@
       "Down Smash": 13
     }
   },
-  {
-    "name": "Pit",
+  "Pit": {
     "hp": 96.0,
     "moves": {
       "Forward Smash": 15,
@@ -556,8 +487,7 @@
       "Down Smash": 12
     }
   },
-  {
-    "name": "Pokemon Trainer (Charizard)",
+  "Pokemon Trainer (Charizard)": {
     "hp": 116.0,
     "moves": {
       "Forward Smash": 17,
@@ -565,8 +495,7 @@
       "Down Smash": 16
     }
   },
-  {
-    "name": "Pokemon Trainer (Squirtle)",
+  "Pokemon Trainer (Squirtle)": {
     "hp": 75.0,
     "moves": {
       "Forward Smash": 14,
@@ -574,8 +503,7 @@
       "Down Smash": 11
     }
   },
-  {
-    "name": "Pyra",
+  "Pyra": {
     "hp": 98.0,
     "moves": {
       "Forward Smash": 20,
@@ -583,8 +511,7 @@
       "Down Smash": 14
     }
   },
-  {
-    "name": "Richter",
+  "Richter": {
     "hp": 106.0,
     "moves": {
       "Forward Smash": 16,
@@ -592,8 +519,7 @@
       "Down Smash": 12
     }
   },
-  {
-    "name": "Ridley",
+  "Ridley": {
     "hp": 107.0,
     "moves": {
       "Forward Smash": 15,
@@ -601,8 +527,7 @@
       "Down Smash": 14
     }
   },
-  {
-    "name": "R.O.B.",
+  "R.O.B.": {
     "hp": 107.0,
     "moves": {
       "Forward Smash": 15,
@@ -610,8 +535,7 @@
       "Down Smash": 13
     }
   },
-  {
-    "name": "Robin",
+  "Robin": {
     "hp": 95.0,
     "moves": {
       "Forward Smash": 16,
@@ -619,8 +543,7 @@
       "Down Smash": 15
     }
   },
-  {
-    "name": "Rosalina & Luma",
+  "Rosalina & Luma": {
     "hp": 82.0,
     "moves": {
       "Forward Smash": 14,
@@ -628,8 +551,7 @@
       "Down Smash": 11
     }
   },
-  {
-    "name": "Roy",
+  "Roy": {
     "hp": 95.0,
     "moves": {
       "Forward Smash": 20,
@@ -637,8 +559,7 @@
       "Down Smash": 15
     }
   },
-  {
-    "name": "Ryu",
+  "Ryu": {
     "hp": 103.0,
     "moves": {
       "Forward Smash": 17,
@@ -646,8 +567,7 @@
       "Down Smash": 15
     }
   },
-  {
-    "name": "Sephiroth",
+  "Sephiroth": {
     "hp": 79.0,
     "moves": {
       "Forward Smash": 18,
@@ -655,8 +575,7 @@
       "Down Smash": 14
     }
   },
-  {
-    "name": "Sheik",
+  "Sheik": {
     "hp": 78.0,
     "moves": {
       "Forward Smash": 12,
@@ -664,8 +583,7 @@
       "Down Smash": 11
     }
   },
-  {
-    "name": "Shulk",
+  "Shulk": {
     "hp": 97.0,
     "moves": {
       "Forward Smash": 17,
@@ -673,8 +591,7 @@
       "Down Smash": 14
     }
   },
-  {
-    "name": "Simon",
+  "Simon": {
     "hp": 107.0,
     "moves": {
       "Forward Smash": 16,
@@ -682,8 +599,7 @@
       "Down Smash": 12
     }
   },
-  {
-    "name": "Snake",
+  "Snake": {
     "hp": 106.0,
     "moves": {
       "Forward Smash": 22,
@@ -691,8 +607,7 @@
       "Down Smash": 12
     }
   },
-  {
-    "name": "Sonic",
+  "Sonic": {
     "hp": 86.0,
     "moves": {
       "Forward Smash": 14,
@@ -700,8 +615,7 @@
       "Down Smash": 12
     }
   },
-  {
-    "name": "Sora",
+  "Sora": {
     "hp": 85.0,
     "moves": {
       "Forward Smash": 15,
@@ -709,8 +623,7 @@
       "Down Smash": 13
     }
   },
-  {
-    "name": "Steve",
+  "Steve": {
     "hp": null,
     "moves": {
       "Forward Smash": 14.5,
@@ -718,18 +631,4 @@
       "Down Smash": 13
     }
   }
-]
-  
-
-
-
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
+}
