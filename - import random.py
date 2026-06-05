@@ -27,6 +27,12 @@ data = json.load(characters)
 lives = 3
 npc_lives = 3
 
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+player = (input("which player")).capitalize()
+=======
+>>>>>>> 4be237fe8a12468875dd63126abae7573a4f7d73
 player = (input("which player")).capitalize()
 print(data[player]['moves'])
 
@@ -34,10 +40,15 @@ player_health = (data[player]['hp'])
 npc = (input("which npc")).capitalize()
 npc_health = (data[npc]['hp'])
 print(player_health)
+<<<<<<< HEAD
+=======
+print("player health")
+>>>>>>> 4be237fe8a12468875dd63126abae7573a4f7d73
 
 
 
 while lives > 0 and npc_lives > 0:
+<<<<<<< HEAD
     attack = input('what attack')
     damage = (data[player]['moves'][attack])
     npc_health -= damage
@@ -61,3 +72,35 @@ if npc_lives == 0:
 
 
     # YOU FORGOT TO SIGN OUT OF YOUR COMPUTER YOU FOOL. DONT LET ME CATCH YOU LACKING AGAIN OR ALL OF YOUR CODE WILL BE ERASED
+=======
+    if player_health < 0 or player_health == 0:
+        attack = input('What attack? ')
+        damage = (data[player]['moves'][attack])
+        npc_health -= damage
+        npc_attack = random.choice(list(data[npc]['moves'].keys()))
+   
+        npc_damage = data[npc]['moves'][npc_attack]
+        player_health -= npc_damage
+        print("NPC Health:") 
+        print(npc_health)
+        
+        print("npc: It's my turn now!!")
+        print(npc_attack)
+        print("Player Health:")
+        print(player_health)
+        
+        print("Npc: Take that!")
+        if player_health < 0:
+            lives -= 1
+            player_health = data[player]['hp']
+    if lives == 0:
+        print("game over")
+
+        if npc_health <0:
+            npc_lives-=1
+            npc_health = data[npc]['hp']
+    if npc_lives == 0:
+        print("victory")
+
+>>>>>>> Stashed changes
+>>>>>>> 4be237fe8a12468875dd63126abae7573a4f7d73
