@@ -43,7 +43,7 @@ def smashsmashmenu():
             smashmenuoptions()
             return Suggestion
         case 3:
-            smashsmashmenu()
+            smashmenuoptions()
 def smashmenuoptions():
     choice1 = int(input("Enter option 1-5: "))
     match choice1:
