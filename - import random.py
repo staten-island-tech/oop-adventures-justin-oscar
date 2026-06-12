@@ -126,33 +126,33 @@ print("player health")
 
 
 while lives > 0 and npc_lives > 0:
+        while True:
+            attack = input('What attack? ')
+            damage = (data[player]['moves'][attack])
+            npc_health -= damage
+            npc_attack = random.choice(list(data[npc]['moves'].keys()))
         
-        attack = input('What attack? ')
-        damage = (data[player]['moves'][attack])
-        npc_health -= damage
-        npc_attack = random.choice(list(data[npc]['moves'].keys()))
-        print(npc_attack)
-   
-        npc_damage = data[npc]['moves'][npc_attack]
-        player_health -= npc_damage
-        print("NPC Health:") 
-        print(npc_health)
-        
-        print("npc: It's my turn now!!")
-        print(npc_attack)
-        print("Player Health:")
-        print(player_health)
-        
-        print("Npc: Take that!")
-        if player_health < 0:
-            player_health == (data[player]['hp'])
-            lives -= 1
+    
+            npc_damage = data[npc]['moves'][npc_attack]
+            player_health -= npc_damage
+            print("NPC Health:") 
+            print(npc_health)
             
-        if lives == 0:
-            print("game over")
+            print("npc: It's my turn now!!")
+            print(npc_attack)
+            print("Player Health:")
+            print(player_health)
+            
+            print("Npc: Take that!")
+            if player_health < 0:
+                player_health == (data[player]['hp'])
+                lives -= 1
+                
+            if lives == 0:
+                print("game over")
 
-        if npc_health < 0:
-            npc_lives-=1
-            npc_health == (data[player]['hp'])
-        if npc_lives == 0:
-            print("victory")
+            if npc_health < 0:
+                npc_lives-=1
+                npc_health == (data[player]['hp'])
+            if npc_lives == 0:
+                print("victory")
